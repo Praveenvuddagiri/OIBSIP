@@ -1,0 +1,22 @@
+
+-ATM Interface:-
+
+This is a complex project consists of five different classes and it is a console-based application. When the system starts the user asked to register and after that login using that given details. And these 2 processes the user will be able to perform follwing functionalities:
+
+1. Transaction History
+
+2. Withdraw
+
+3. Deposit
+
+4. Fund Transfer
+
+5. Balance Enquiry
+
+6. Exit
+
+Based on above functionalities the whole project is having five classes i.e., authentication, withdraw, deposit, fundTransfer and transactionHitory.
+
+So, this is a basic idea about the ATM interface project.
+
+
