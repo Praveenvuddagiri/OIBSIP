@@ -12,7 +12,6 @@ class game extends JFrame{
         super("Number guessing game");
         this.name = name;
         key = getRandom();
-        System.out.println(key+"");//tobe commented
         attempt = 5;
         round = 1;
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -77,7 +76,6 @@ class game extends JFrame{
                 
                 if(num == key ){
                     key = getRandom();
-                    System.out.println(key+"");//to be commented.
 
                     if(round == 1){
                         res = "Congratulations you had cleared first round successfully.";
@@ -122,7 +120,6 @@ class game extends JFrame{
                     l6.setText("You lost the previous round, Better luck in this round.");
                     attempt = 5;
                     key = getRandom();
-                    System.out.println(key+"");//to be commented
                 }
                 l5.setText("Attempts Left : "+attempt);
         }});
@@ -217,9 +214,9 @@ class game extends JFrame{
     }
 }
 class guessGame extends JFrame {
-    JLabel l1,l2,l3,l4,l5,l6;
+    JLabel l1,l2;
     JButton b1;
-    JTextField t1,t2,t3,t4,t5;
+    JTextField t1;
     String name;
     guessGame(){
         super("Number guessing game");
