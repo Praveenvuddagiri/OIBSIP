@@ -20,7 +20,7 @@ This is a funny and easy "Guess the Number" game. It is a short java project all
   
 5.And each round is having 5 attempts. Points will decresing as the number number of attempts are incresing.
 
-6. At last the total score will be displayed and can start a new game from that window.
+6.At last the total score will be displayed and can start a new game from that window.
 
 So, this is about number guessing game.
 
