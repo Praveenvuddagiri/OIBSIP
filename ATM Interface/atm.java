@@ -247,6 +247,8 @@ class atm{
     double balance;
     ArrayList<String> transactions = new ArrayList<>();
     atm(){
+
+        System.out.print("\033[H\033[2J");  
         sc = new Scanner(System.in);
         authentication auth = new authentication();
         balance = auth.getBalance();
@@ -298,6 +300,7 @@ class atm{
                 break;
             
         }
+        System.out.print("\033[H\033[2J");  
         banking();
 
     }
